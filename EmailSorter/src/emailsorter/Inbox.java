@@ -7,7 +7,7 @@ import java.util.ArrayList;
  *
  * @author Sam
  */
-public class EmailHolder {
+public class Inbox {
     
     public ArrayList<Email> emails;
     

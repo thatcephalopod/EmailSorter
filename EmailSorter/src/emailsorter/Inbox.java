@@ -11,6 +11,10 @@ public class Inbox {
     
     public ArrayList<Email> emails;
     
+    public Inbox(String inputName, String inputPswd) {
+        
+    }
+    
     public void sort() {
         
     }

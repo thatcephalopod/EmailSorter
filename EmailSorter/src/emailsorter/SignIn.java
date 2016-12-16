@@ -1,4 +1,4 @@
-package SignIn;
+package emailsorter;
 
 import java.awt.event.ActionEvent;
 import javax.swing.*;
@@ -6,12 +6,7 @@ import java.awt.event.ActionListener;
 import static java.lang.Math.*;
 import java.util.ArrayList;
 import java.util.Arrays;
-import ui.Email;
-import ui.UI;
-import static ui.UI.HEIGHT;
-import static ui.UI.WIDTH;
-import static ui.UI.userint;
-import ui.Window;
+
 
 public class SignIn implements ActionListener {
 
@@ -54,7 +49,6 @@ public class SignIn implements ActionListener {
             } else {
                 rd.clearSelection();
                 focus3 = true;
-                UI.display = true;
             }
         }
         if(ae.getSource().equals(enter)){
